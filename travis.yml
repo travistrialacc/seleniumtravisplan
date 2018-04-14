@@ -1,0 +1,11 @@
+language:
+  java
+
+before_script:
+  - echo "Before script"
+
+script:
+  - mvn install
+
+after_script:
+  - echo "After script"
