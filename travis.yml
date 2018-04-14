@@ -7,5 +7,8 @@ before_script:
 script:
   - mvn install
 
+install:
+  true
+
 after_script:
   - echo "After script"
